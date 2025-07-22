@@ -2,7 +2,7 @@ async function getWeather() {
   const city = document.getElementById("city").value;
   const result = document.getElementById("weatherResult");
 
-  const apiKey = "e475418c0c1035cfb364a921eb836e3c";
+  const apiKey = "*****************";
 
   if (city === "") {
     result.innerHTML = "❗ Please enter a city name.";
